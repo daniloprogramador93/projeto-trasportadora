@@ -8,30 +8,34 @@
     <title>Trasportadora</title>
 </head>
 <body>
-    <header>
-        <h1>La Log</h1>
-        <p>Trasportando com Segurança</p>
-       
-    </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Historia </a>
-        <a href="#">Fale Conosco</a>
-        <a href="#">Trabalhe Conosco</a>
-    </nav>
+        <header>
+        <div id="cabeca">
+            <img src="imagen/caminhao3.png" id="caminhao" alt="">
+            <h1>La Log</h1>
+        </div>
+            <p>Trasportando com Segurança</p>
+        </header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Historia </a>
+            <a href="#">Fale Conosco</a>
+            <a href="#">Trabalhe Conosco</a>
+        </nav>
+        <hr>
         <article id="bloco1">  
             <div id="img1">
-                 <img src="caminhoes2.png" alt="imagem de caminhoes">
+                 <img src="imagen/fotoescritorio.webp" alt="imagem de caminhoes">
             </div>
                 <p>Somos uma empresa séria com mais de 8 anos entregando serviços de trasporte e logistica para empresas e pessoas, atendemos em todo Nordeste do lotoral ao interior </p>
         </article>
     <main>
-        <article>
+        <article class="bloco">
             <h2>Os Pilares do Nosso Sucesso  </h2>
             <h3>Tecnologia, Capacitação e Tempo</h3>
-            esses pilares trabalham em conjunto e em armonia, sem eles seria impossível entregar o serviço que entregamos.
+            <p>esses pilares trabalham em conjunto e em armonia, sem eles seria impossível entregar o serviço que entregamos.
+            </p>
             <div id="caixa">
-                <img src="coluna.png" alt="colunagrega" id="img2">
+                <img src="imagen/coluna.png" alt="colunagrega" id="img2">
                 
                 <ul >
                     <li>Tecnologia</li>
@@ -49,11 +53,23 @@
             
         </article>
         
-    </main>
-        <article id="final">
-            <h2>Conheça Nossa Frota </h2>
-            <p>Nossos caminhões são rastreados e bem revisados para podermos prestar o melhor serviço e garatir a maior segurança possivel para que a mercadoria chegue ao destino </p>
+        <article class="bloco">
+            <h2>Galpoes </h2>
+            <p>Capacidade logistica de grande porte dispondo de galpões espalhados em locais estrategicos   </p>
+           
+            <picture>
+                <source media="(max-width: 800px )" srcset="imagen/imagengalpaomin.jpg" type="image/jpg">
+                <source media="(max-width: 800px )" srcset="imagen/imagengalpaomed.jpg" type="image/jpg">
+                <img src="imagen/imagengalpaofull.jpg" alt="foto de galpão">
+            </picture>
+            
+            <h2>Conheça nossa Frota </h2>
+            
+            <div id="video">
+            <iframe width="580" height="315" src="https://www.youtube.com/embed/yvX8AURMYcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </article>
+    </main>
     <footer>
         Site desenvolvido por &COPY; Danilo Sá
     </footer>
