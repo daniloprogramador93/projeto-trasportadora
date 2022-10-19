@@ -3,35 +3,105 @@
     padding: 0px;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: white;
 }
 header{
-    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.76),rgba(87, 28, 28));
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.555),white);
     text-align: center;
-    color: white;
+    color: rgb(53, 35, 212);
+    padding-top: 30px;  
+    padding: 20px;
     
 }
-nav{
-    background-color: rgba(87, 28, 28);
-    color: aliceblue;
-    text-indent: 20px;  
-    padding-bottom: 5px; 
+header h1{
+    font-size: 2.8em;
 }
-nav a{
-    color: white;
-    padding-left: 15px;
-    
-
-}
-main{
-    background-color: white;
-    
-    padding-top: 20px;
-    width: 600px;
+#bloco1{
+    color: black;
+    min-width: 280px;
+    max-width: 700px;
+    font-size: 1.5em;
     margin: auto;
     padding: 15px;
     text-align: justify;
 }
+img{
+    width: 100%; 
+}
+#img1{
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+#caixa{
+    display: flex;
+    align-items: center;
+}
+#img2{
+    width: 30%;
+    margin: left;
+    padding-left: 30px;
+}
+ul{
+   padding-left: 80px;
+   font-size: 1.5em;
+}
+li{
+    font-size: 1.3em;
+    color: rgb(182, 165, 201);
+}
+nav{
+    background-color: white;
+    color: red;
+    text-indent: 20px;
+    padding-top: 20px;  
+    padding-bottom: 5px; 
+}
+nav a{
+    color: red;
+    font-size: 1.2em;
+    margin-left: 14px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+}
+main{
+    background-color: #004386;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 20px;
+    min-width: 280px;
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+}
+main h2{   
+    text-indent: 30px;
+    background-color:#0355a7 ;
+}
 main p{
-    
+    font-size: 1.1em;
+    text-indent: 15px;
+}
+#final{
+    background-color: #004386;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 20px;
+    min-width: 280px;
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+    margin-top: 10px;
+}
+footer{
+    background-image: linear-gradient(to bottom,white, rgba(0, 0, 0, 0.664));
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.3em;
 }
