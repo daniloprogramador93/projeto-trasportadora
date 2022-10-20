@@ -73,7 +73,6 @@ img{
     width: 100%; 
 }
 #img1{
-    width: ;
     display: block;
     width: 100%;
     margin: auto;
@@ -106,6 +105,10 @@ main{
 main h2{   
     text-indent: 30px;
     background-color:#0355a7 ;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
 }
 main p{
     font-size: 1.2em;
@@ -127,8 +130,7 @@ main p{
     text-indent: 15px;
 }
 #video{
-    padding-left: -20px;
-    padding-right: -20px;
+   
     position: relative;
     padding-bottom: 62%;
 }
@@ -137,8 +139,23 @@ main p{
     top: 5%;
     left: 5%;
     width: 90%;
-    height: 90%;    
+    height: 90%;     
+}
+.elemento{
+    background-color: rgb(156, 94, 197);
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 7px;
+    padding-top: 25px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
     
+}
+.redessociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 footer{
     background-image: linear-gradient(to bottom,white, rgba(0, 0, 0, 0.664));
